@@ -17,7 +17,7 @@ const Board = () => {
       return currentSquares.map( (squareValue, position)=>{
           if(clickedPosition === position)
           {
-            return isNext ? 'X' : 'O';
+            return isNext ? 'X': 'O' ;
           }
          return squareValue;
 
